@@ -1,0 +1,10 @@
+{
+	"id": 101,
+	"name": "Java",
+	"price": 500,
+	"author": {
+		"authorName": "Aishwarya",
+		"authorEmail": "a@23",
+		"authorPno": 546534132
+	}
+}

@@ -1,0 +1,12 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+        #exclude: beans            //to exclude beans
+       # - beans                   // to include beans and actuators
+       # - mappings
+ # endpoint:
+    #shutdown:
+     # enabled: true               // to shutdown application 
+   

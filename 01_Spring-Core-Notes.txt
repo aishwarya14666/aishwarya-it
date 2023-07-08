@@ -1,0 +1,638 @@
+Spring Boot with Cloud & Microservices (19-SBMS)
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+=> What are the pre-requisites to learn this course ?
+
+=> What is our SBMS course content ?
+
+=> Who should learn this SBMS course ?
+
+=> Why to learn this SBMS course ?
+
+=> How job opportunites are available for Spring Boot & Microservices 
+
+=> SBMS Course Details
+
+
+Pre-Requisites
+++++++++++++++
+
+1) Core Java 
+
+2) Adv Java (JDBC, Servlets & JSP)
+
+3) SQL (CRUD)
+
+
+SBMS Course Content
++++++++++++++++++++
+
+1) Spring Core Module
+
+2) Spring Boot
+
+3) Spring Data JPA
+
+4) Spring Web MVC
+
+5) RESTFul Services (Spring REST)
+
+6) Spring Cloud
+
+7) Microservices
+
+8) Spring Security
+
+
+Who should learn this SBMS ?
+++++++++++++++++++++++++++++
+
+-> Every java developer should learn Spring Boot & Microservices 
+		(both freshers & experienced)
+
+-> To get job as a java developer we need to have very good knowledge in SBMS
+
+-> To survive in IT as a java developer we need to have very good knowledge in SBMS
+
+-> Now a days all java projects are using SBMS only
+
+-> Every company asking for Spring Boot & Microservices resources only
+
+====> For 3 years java developer with SBMS ===> 15+ lakhs package
+
+
+Your Trainer Info
++++++++++++++++++
+Name : Mr. Ashok 
+Exp : 9+ Yrs Industry Experience
+Role : Tech Lead
+USA Based Banking Company (Product Based)
+
+Course Info
++++++++++++
+Name : Spring Boot with Cloud & Microservices
+Course Code : 19-SBMS
+Start Date : 01-Jun-2022
+Class Time : 7 AM - 8:15 AM IST (Mon - Sat)
+Duration : 3.5 Months
+Course Fee : 7,000 INR (Live Classes + Daily ClassNotes)
+For Backup Videos : 3,000 INR (6 months access)
+
+Note: After completion of SBMS, you are equal to 4+ years exp Spring Boot developer.
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Application Development
+++++++++++++++++++++++++
+
+=> Application development divied into 2 parts
+
+		1) Backend Development
+
+		2) Frontend Development
+
+
+	######## Fullstack Development = Backend development + Frontend development #########
+
+=> Backend contains the business logic of our application
+
+	(webservice calls, validations, email logic, db communication)
+
+=> Frontend contains user interface of the application
+		
+		(presentation logic)
+
+=> End users interact with frontend of our application. Frontend will interact with Bakend of our application.  Backend will execute business logic and it will communicate with database also.
+
+=> The developers who can do both backend development and front end development they are called as Fullstack Developers.
+
+=> Fullstack developers are having lot of demand in the market. 
+
+=> Fullstack developers are hot cakes in the market
+
+=> Companies are offering high packages for fullstack developers.
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Monolith Vs Microservices
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+=> If we develop all the functionalities in single project then it is called as Monolith Architecture based application.
+
+=> In Microservices architecture, functionality will be divided into several apis.
+
+
+
++++++++++++++++
+Java Road Map
++++++++++++++
+
+=> Core Java
+
+=> Adv Java
+		- JDBC
+		- Servlets
+		- JSP
+
+=> SQL
+
+=> Data Structures & Algorithms
+
+=> Hibernate ORM Framework
+
+=> Spring Framework
+
+=> Spring Boot
+
+=> RESTFul Services
+
+=> Microservices
+
+=> Security
+
+=> Design Patterns
+
+
+=> Spring Boot is just one approach to develop Spring Based applications with less configurations.
+
+=> Spring Boot came into market with Auto Configuration concept
+
+Note: Spring Boot will take care of configurations required for our application.
+
+=> We can do rapid development using Spring Boot
+
+
+
+
+UI Technologies
++++++++++++++++
+HTML & CSS
+Java Script
+Boot Strap
+Angular
+React JS
+
+Realtime Tools
+++++++++++++++
+Maven
+Git Hub
+JIRA
+
+
+-------------------------------------------------------------------------------------------------
+Spring Framework
+------------------------------------------------------------------------------------------------
+
+1) What is Programming Language ?
+
+2) What is Framework ?
+
+
+-> Programming Language used by humans to communicate with Computers.
+-> Programming Language contains set of instructions & syntaxes
+
+		Ex : C, C++, Java, C#, Python etc.....
+
+-> Framework means semi-developed software.
+-> Frameworks provides some common logics which are required for application development
+
+				Ex: Hibernate, Struts, Spring etc...
+
+-> If we use framework in our application development then we need to focus only on business logic
+   (frameworks will provide common logics required for our application)
+
+
+Hibernate : It is an ORM framework. Used to develop only persistence layer of our application
+
+Struts : It is a web framework. Used to develop only web layer of our application.
+
+Spring : It is an application development framework. Entire project can be developed by using this.
+
+				(we can do application end to end development)
+--------------------------------------------------------------------------------------------------
+Spring Advantages
+--------------------------------------------------------------------------------------------------
+
+-> It is a free & open source framework
+
+-> Spring is very light weight framework
+
+-> Spring is versatile framework 
+
+(Spring can be integrated with any other java framework available in the market)
+
+-> Spring is non-invasive framework 
+
+(spring framework will not force us to use framework related interfaces or classes)
+
+Ex: To create a servlet we need to implement Servlet Interface or we need to extend HttpServlet or GenericServlet. That means servlet is forcing us to use Servlets specific interface or classes.
+
+Note: In Spring we can create a simple pojo and we can ask spring to execute our pojo
+
+-> Spring works based on POJO and POJI model
+
+		POJO : Plain old java object
+		POJI : Plain old java interface
+
+-> Spring is not a single framework. It is collection of Modules
+
+---------------------------------------------------------------------------------------------
+Spring Modules
+---------------------------------------------------------------------------------------------
+
+1) Spring Core
+2) Spring Context
+3) Spring DAO / Spring JDBC
+5) Spring AOP
+6) Spring ORM
+7) Spring Web MVC
+8) Spring Security
+9) Spring REST
+10) Spring Data
+11) Spring Cloud
+12) Spring Batch etc...
+
+Note: Spring framework is loosely coupled. It will not force to use all modules.
+
+-> Based on project requirement we can choose which modules we need to use from Spring.
+
+Note: Spring Core is the base module for all other modules in Spring. To work with any module in spring first we need to know Spring Core module.
+
+---------------------------------------------------------------------------------------------
+
+-> Spring Core Module is base module in Spring Framework. It is providing IOC container & Dependency Injection.
+
+Note: IOC & DI are fundamental concepts of Spring Framework.
+
+-> Spring Context module will deal the configuration related stuff
+
+-> AOP stands for Aspect Oriented Programming. Spring AOP is used to deal with Cross Cutting logics in application.
+
+			Application = Business Logic + Cross Cutting Logic
+
+Note: We can seperate business logic and cross cutting logic using AOP module.
+
+-> Spring JDBC / Spring DAO module used to develop Persistence Layer
+
+-> Spring ORM module is used to develop Persistence Layer with ORM features.
+
+-> Spring Web MVC Module is used to develop Web Applications. 
+
+-> Spring Security module is used to implement Security Features in our application
+		(Authentication & Authorization)
+
+-> Spring REST is used to develop RESTFul services (REST API)
+
+-> Spring Data is used to develop persistence layer. It provided pre-defined repositories to simplify CRUD operations.
+
+-> Spring Cloud providing Cloud concepts like Service Registry, Cloud Gateway, Filters, Routing, FeignClient etc..
+
+-> Spring Batch is used to implement Batch Processing in our application. Batch Processing means bulk operation.
+
+---------------------------------------------------------------------------------------------------
+
+-> Spring Framework released in 2004 (First Production Released)
+
+-> The current version of Spring is 5.x version (Released in 2017)
+
+Note: Reactive Programming support added in Spring Framwork 5.x version
+
+Note: Spring Boot 1.x released in 2014
+
+-> The current version of Spring Boot is 3.x version
+
+Note: Spring Boot is an extension for Spring Framework.
+
+-------------------------------------------------------------------------------------------------------
+Spring Core
+------------------------------------------------------------------------------------------------------
+
+=> Spring Core is base module in Spring Framework
+
+=> All the other modules of Spring are developed on top of Spring Core Module only
+
+=> Spring Core providing fundamental concepts of Spring Framework
+
+		(IOC Container & Dependency Injection)
+
+=> Spring Core is all about Managaing dependencies among the classes
+
+		(Creating Objects & Injecting Objects)
+
+-------------------------------------------------------------------------------------------------------
+
+-> In our application several classes will be available
+
+-> One class method wants to talk another class method
+
+-> We can establish communication among the classes in 2 ways
+
+		1) Inheritence
+		2) Composition
+
+-> If we use Inheritence or Composition then our classes will become tightly coupled.
+
+-> Instead of we are creating objects we can ask Spring Core to manage dependencies among our classes
+
+------------------------------------------------------------------------------------------------------
+
+-> If we want Spring Core Module to manage dependencies among the classes with loosely coupling then we have to develop our classes by following some best practises.
+
+
+-> "Spring Core" suggesting Developers to follow "Strategy Design Pattern" to develop classes so that "Spring Core" can easily manage dependencies among the classes with loosely coupling.
+
+---------------------------------------------------------------------------------------------
+Strategy Design Pattern
+---------------------------------------------------------------------------------------------
+-> It comes under Behavioural Design Pattern
+
+-> It enables our code to choose an alogrithm at run time
+
+-> When we have multiple algorithms then we can use this pattern to choose one algorithm at run time
+
+-> It will make our classes loosely coupled
+
+
+Rules
++++++
+
+1) Favour Compositon over inhertience
+
+2) Code to interfaces instead of implementation classes
+
+3) Code should be open for extension and code should be closed for modification
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Dependency Injection
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+-> The process of injecting one class object into another class object is called as Dependency Injection
+
+-> We can perform Dependency Injection in 3 ways
+
+		1) Setter Injection
+		2) Constructor Injection
+		3) Field Injection
+
+
+-> The process of injecting one class object into another class object using Setter method then it is called as Setter Injection.
+
+
+Ex :: 
+				   BillCollector bc = new BillCollector();
+				   bc.setPayment(new CreditCardPayment());
+
+
+-> The process of injecting one class object into another class object using Constructor is called as Constructor Injection
+
+Ex::
+
+			BillCollector bc1 = new BillCollector(new DebitcardPayment());
+
+
+-> The process of injecting one class object into another class object using variable is called as Field Injection.
+
+Note: If variable is declared as public then we can access that variable outside of the the class and we can initialize that variable directley.
+	
+			ex : obj.variable = value; //initialization
+
+Note: If variable is declared as private then we can't access that variable outside of the class directley. To access private variables outside of the class we can use Reflection api.
+
+---------------------------------------------------------------------------------------------
+package in.ashokit;
+
+import java.lang.reflect.Field;
+
+public class Test {
+
+	public static void main(String[] args) throws Exception {
+		Class<?> clz = Class.forName("in.ashokit.BillCollector");
+
+		Field field = clz.getDeclaredField("payment");
+		field.setAccessible(true);
+
+		Object obj = clz.newInstance();
+		field.set(obj, new DebitcardPayment());//injecting value to variable
+
+		BillCollector bc = (BillCollector) obj;
+		bc.collectPayment(2000.00);
+	}
+}
+--------------------------------------------------------------------------------------------
+
+-> If we develop the project without using spring framework then programmer should perform dependency injection among the classes in the application.
+
+-> If programmer performs dependency injection then classes will become tightly coupled.
+
+-> In Realtime project we will have 100's of classes then performing Dependency Injection is very very difficult and code will become cumbersome.
+
+-> To overcome this problem we can use Spring IOC container.
+
+-> If we develop the project using spring framework then Spring IOC will take care of Dependency Injections in our application.
+
+-> IOC is a principle which is responsible to manage and colloborate dependencies among the classes available in the application.
+
+Note: IOC stands for Inversion of Control. DI stands for Dependency Injection.
+
+-> In spring framework IOC will perform DI.
+
+-----------------------------------------------------------------------------------------------------
+Building First Application Using Spring Framework
+------------------------------------------------------------------------------------------------------
+
+1) Open STS IDE and Create Maven Project
+
+2) Add Spring-Context dependency in project pom.xml file
+
+<dependencies>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>5.3.20</version>
+		</dependency>
+</dependencies>
+
+3) Create required classes in our application using Strategy Design Pattern
+
+		IPayment.java (I)
+		CreditCardPayment.java
+		DebitCardPayment.java
+		UpiPayment.java
+		BillCollector.java
+		Test.java
+
+4) Create Beans Configuration file and configure our classes as Spring Beans
+
+	<bean id="creditCard" class="in.ashokit.CreditcardPayment" />
+
+	<bean id="debitCard" class="in.ashokit.DebitcardPayment" />
+
+	<bean id="upi" class="in.ashokit.UpiPayment" />
+
+	<bean id="billCollector" class="in.ashokit.BillCollector">
+		<property name="payment" ref="creditCard"/>
+	</bean>
+
+5) Start the IOC container and test the application
+
+public class Test {
+
+	public static void main(String[] args) throws Exception {
+
+		ApplicationContext context = new ClassPathXmlApplicationContext("Spring-Beans.xml");
+
+		BillCollector bc = context.getBean("billCollector", BillCollector.class);
+		bc.collectPayment(1400.00);
+	}
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-> To perform setter injection we will use <property /> tag like below
+
+<bean id="billCollector" class="in.ashokit.BillCollector">
+		<property name="payment" ref="upi" />
+</bean>
+	
+-> To perform constructor injection we will use <constructor-arg/> tag like bleow
+
+<bean id="billCollector" class="in.ashokit.BillCollector">
+		<constructor-arg name="payment" ref="upi" />
+</bean>
+
+-> When we perform both setter and constructor injection for same variable then setter injection will override constructor injection because construcor will execute first to initialize the variable then setter will execute and it will re-initialize the variable.
+
+<bean id="billCollector" class="in.ashokit.BillCollector">
+		<property name="payment" ref="creditCard" />
+		<constructor-arg name="payment" ref="upi" />
+</bean>
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Bean Scopes
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-> Bean scope will decide how many objects should be created for a spring bean
+
+-> The default scope of spring bean is singleton (that means only one object will be created)
+
+-> We can configure below scopes for spring bean
+
+1) singleton
+2) prototype
+3) request
+4) session
+
+Note: For singleton beans objects will be created when IOC starts
+
+-> For prototype beans when we call context.getBean(..) method then object will be created 
+
+-> For prototype beans everytime new object will be created
+
+-> To save memory spring framework made the default scope as singleton
+
+
+	<bean id="motor" class="in.ashokit.Motor" scope="prototype" />
+
+	<bean id="car" class="in.ashokit.Car" />
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Autowiring
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+-> In application several classes will be available
+
+-> One class wants to talk to another class
+
+-> We are using IOC container to perform that dependency injection
+
+-> We are giving instruction to IOC to inject dependent object into target object using 'ref' attribute
+
+	<bean id="billCollector" class="in.ashokit.BillCollector">
+		<constructor-arg name="payment" ref="upi" />
+	</bean>
+
+-> Using "ref" attribute we are telling to IOC which object it has to inject
+
+=> This process is called as Manual Wiring
+
+=> Spring IOC supports Autowiring concept  that means Spring IOC having capability to identify the dependent and inject dependent into target
+
+=> Autowiring having mode
+
+1) byName 
+2) byType
+3) constructor
+4) no
+
+
+-> byName means if target class variable name matched with any bean id/name in bean configuration file then IOC will consider that as dependent bean and it will inject that dependent bean object into target object.
+
+	<bean id="dieselEng" class="in.ashokit.beans.DieselEngine" />
+	
+	<bean id="car" class="in.ashokit.beans.Car" autowire="byName"/>
+
+=> byType means it will check data type of the variable.  With Datatype of variable if any bean class is configured then it will identify that as dependent and it will inject into target.
+
+	<bean id="xyz" class="in.ashokit.beans.DieselEngine" />
+	
+	<bean id="car" class="in.ashokit.beans.Car" autowire="byType">
+	</bean>
+
+Note: We can configure one class for multiple times with different ids then we will get ambiguity problem in byType scenario.
+
+-> In byType mechanism if we have more than one bean matching with type then we will get ambiguity problem.
+
+=> To overcome ambiguity problem we need to use 'autowire-candidate=false'
+
+	<bean id="xyz" class="in.ashokit.beans.DieselEngine" autowire-candidate="false"/>
+
+	<bean id="abc" class="in.ashokit.beans.DieselEngine" />
+	
+	<bean id="car" class="in.ashokit.beans.Car" autowire="byType">
+	</bean>
+
+Note: When we configure autowiring with "byName" or "byType" it is performing setter injection by default and setter method is mandatory in target bean.
+
+=> If we want to perfom Autowiring through constructor then we can use 'constructor' mode
+
+	<bean id="xyz" class="in.ashokit.beans.DieselEngine" autowire-candidate="false"/>
+
+	<bean id="abc" class="in.ashokit.beans.DieselEngine" />
+	
+	<bean id="car" class="in.ashokit.beans.Car" autowire="constructor"/>
+
+=> In 'constructor' byType will be used to identify dependent bean object.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What is Spring Framework ?
+Spring Modules
+Tightly Coupling vs Loosely Coupling
+Strategy Design Pattern
+Spring Core Introduction
+IOC Container
+Dependency Injection
+	- Setter Injection
+	- Constructor Injection
+	- Field Injection
+<propery/> tag
+<constructor-arg/> tag
+Bean Scopes
+	- singleton
+	- prototype
+<ref /> attribute
+Autowiring
+	- byName
+	- byType
+	- constructor
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+

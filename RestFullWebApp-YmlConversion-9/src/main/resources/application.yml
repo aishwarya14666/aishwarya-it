@@ -1,0 +1,6 @@
+greet:
+  msg: Good Morning.....!!
+server:
+  port: 9090
+welcome:
+  msg: Welcome To my World.....!!
